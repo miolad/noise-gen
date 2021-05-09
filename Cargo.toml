@@ -1,0 +1,14 @@
+[package]
+name = "wgpu-noise"
+version = "0.1.0"
+authors = ["Davide Miola <davide.miola99@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+wgpu = { version = "0.8", features = ["cross"] }
+futures = "0.3"
+wgpu_glyph = { git = "https://github.com/Dispersia/wgpu_glyph", rev = "26ef94a9adadb40efddb69321ad4bac3b805333b" }
+winit = "0.24"
+bytemuck = "1.5"
